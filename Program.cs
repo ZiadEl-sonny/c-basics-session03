@@ -30,11 +30,23 @@ namespace c_basics_session03
             //to check if they point to the same object in memory.
 
 
-            string Var1 = "clean code ";
-            string Var2 = "clean code ";
-            Console.WriteLine(ReferenceEquals(Var1, Var2));
-            
-            
+            //string Var1 = "clean code ";
+            //string Var2 = "clean code ";
+            //Console.WriteLine(ReferenceEquals(Var1, Var2));
+
+
+            #endregion
+
+            #region Queston 3
+            //Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same
+            //object.Print the final result.
+
+            StringBuilder bookList = new StringBuilder();
+            bookList.Append("Book List");
+            bookList.Append( " -Update");
+            Console.WriteLine(bookList);
+
+
             #endregion
 
 
