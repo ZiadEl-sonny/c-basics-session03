@@ -217,16 +217,37 @@ namespace c_basics_session03
             #region Question 17
             //Using the same books array, print every title except "The Pragmatic Programmer" (skip it with
             //continue, don't stop the loop).
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-            for (int i = 0; i < books.Length; i++)
-            {
-                if (books[i] == "The Pragmatic Programmer")  
-                    continue; 
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    if (books[i] == "The Pragmatic Programmer")  
+            //        continue; 
 
-                Console.WriteLine(books[i]);
+            //    Console.WriteLine(books[i]);
+            //}
+
+            #endregion
+
+            #region Question 18
+            //Write a method PrintFirstBook() that prints the first book in the books array. If the array is empty,
+            //use return to exit the method early instead of printing anything.
+            void PrintFirstBook(string [] BooksArr) {
+                if (BooksArr.Length == 0)
+              
+                    return;
+                
+                else
+                {
+                    Console.WriteLine(BooksArr[0]);
+                }
+                
+            
             }
 
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            PrintFirstBook(books);
             #endregion
 
 
