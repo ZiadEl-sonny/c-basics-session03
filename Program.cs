@@ -232,22 +232,22 @@ namespace c_basics_session03
             #region Question 18
             //Write a method PrintFirstBook() that prints the first book in the books array. If the array is empty,
             //use return to exit the method early instead of printing anything.
-            void PrintFirstBook(string [] BooksArr) {
-                if (BooksArr.Length == 0)
+            //void PrintFirstBook(string [] BooksArr) {
+            //    if (BooksArr.Length == 0)
               
-                    return;
+            //        return;
                 
-                else
-                {
-                    Console.WriteLine(BooksArr[0]);
-                }
+            //    else
+            //    {
+            //        Console.WriteLine(BooksArr[0]);
+            //    }
                 
             
-            }
+            //}
 
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-            PrintFirstBook(books);
+            //PrintFirstBook(books);
             #endregion
 
 
