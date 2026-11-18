@@ -41,11 +41,26 @@ namespace c_basics_session03
             //Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same
             //object.Print the final result.
 
-            StringBuilder bookList = new StringBuilder();
-            bookList.Append("Book List");
-            bookList.Append( " -Update");
-            Console.WriteLine(bookList);
+            //StringBuilder bookList = new StringBuilder();
+            //bookList.Append("Book List");
+            //bookList.Append( " -Update");
+            //Console.WriteLine(bookList);
 
+
+
+            #endregion
+
+            #region Question 4
+            //Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library".
+            //Print the result.
+
+            StringBuilder bookList = new StringBuilder();
+
+            bookList.Append("Book List");
+            bookList.Append(" -Update");
+
+            bookList.Replace("Book List", "library");
+            Console.WriteLine(bookList);
 
             #endregion
 
